@@ -1,0 +1,38 @@
+/* Estilos gerais para o body */
+body {
+    font-family: 'Inter', sans-serif; /* Uma fonte moderna e versátil */
+    line-height: 1.8; /* Espaçamento entre linhas para boa leitura */
+    color: #333; /* Cor de texto principal */
+    background-color: #f4f4f4; /* Um tom de cinza claro para o fundo */
+    padding: 30px; /* Espaçamento interno maior */
+}
+
+/* Estilizando um possível título principal */
+h1 {
+    font-size: 3rem; /* Tamanho grande para o título */
+    font-weight: bold; /* Título em negrito */
+    color: #2c3e50; /* Uma cor escura para o título */
+    margin-bottom: 2.5rem; /* Espaço maior abaixo do título */
+    text-align: center; /* Centralizar o título */
+}
+
+/* Estilizando um possível parágrafo de introdução */
+.introducao {
+    font-size: 1.2rem; /* Fonte um pouco maior */
+    color: #555; /* Um tom de cinza mais claro */
+    line-height: 1.9; /* Espaçamento entre linhas um pouco maior */
+    margin-bottom: 2rem; /* Espaço abaixo da introdução */
+    text-align: center; /* Centralizar o parágrafo */
+}
+
+/* Estilizando links dentro do conteúdo */
+a {
+    color: #007bff; /* Cor primária do Bootstrap para links */
+    text-decoration: none; /* Remover sublinhado */
+    transition: color 0.3s ease-in-out; /* Transição suave de cor */
+}
+
+a:hover {
+    color: #0056b3; /* Cor mais escura no hover */
+    text-decoration: underline; /* Adicionar sublinhado no hover */
+}

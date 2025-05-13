@@ -1,0 +1,29 @@
+/* Estilos gerais para o body */
+body {
+    font-family: 'Roboto', sans-serif; /* Uma fonte popular e legível */
+    line-height: 1.65; /* Espaçamento entre linhas para boa leitura */
+    color: #373a3c; /* Uma cor de texto um pouco mais escura que a padrão */
+    background-color: #eaeded; /* Um tom de cinza bem claro para o fundo */
+    padding: 15px; /* Espaçamento interno ao redor do conteúdo */
+}
+
+/* Estilizando um possível elemento de destaque */
+.destaque-energia {
+    background-color: #fff3cd; /* Um amarelo bem claro para destacar */
+    color: #85640a; /* Uma cor escura para o texto de destaque */
+    padding: 10px 15px; /* Espaçamento interno no elemento de destaque */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    margin-bottom: 1rem; /* Espaço abaixo do elemento de destaque */
+}
+
+/* Estilizando links dentro do conteúdo */
+a {
+    color: #007bff; /* Cor azul padrão do Bootstrap para links */
+    text-decoration: none; /* Remover sublinhado padrão */
+    transition: color 0.3s ease; /* Transição suave para a cor ao passar o mouse */
+}
+
+a:hover {
+    color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}

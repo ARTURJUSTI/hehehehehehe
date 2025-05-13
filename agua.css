@@ -1,0 +1,5 @@
+body {
+    font-family: sans-serif; /* Uma fonte padrão sem serifa */
+    line-height: 1.6; /* Um espaçamento entre linhas um pouco maior para melhor leitura */
+    padding: 20px; /* Adiciona um espaçamento interno ao redor do conteúdo */
+}
